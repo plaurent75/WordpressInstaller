@@ -23,7 +23,7 @@ When done, just answer N to the questions "Would You Like To Install others plug
 7. Delete Some Worpdress Theme
 8. Install Plugins in your Plugins lists
 9. Ask you if you need to install More plugins
-10. Rewrite paermalink to /%postname%/
+10. Rewrite permalink to /%postname%/
 11. Set good rights for the folder, as the script was probably ran as ROOT
  
 ##That's all. With only one simple command.

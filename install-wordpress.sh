@@ -56,6 +56,10 @@ read -e wpurl
 echo "Site Title: "
 read -e wptitle
 
+# accept the name of our website
+echo "Language (e.g: fr_FR ): "
+read -e wplang
+
 # add a simple yes/no confirmation before we proceed
 echo "Run Install? (y/n)"
 read -e run
@@ -78,7 +82,7 @@ rm index.html
 echo "Repertoire WWW clean"
 
 echo "téléchargement de wordpress...."
-wp core download --locale=fr_FR --force
+wp core download --locale=$wplang --force
 wp core version
 echo "création du wp-config.php ...."
 wp core config --dbname=$dbname --dbuser=$dbuser --dbpass=$dbpass --extra-php <<PHP

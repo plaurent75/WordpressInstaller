@@ -27,3 +27,5 @@ When done, just answer N to the questions "Would You Like To Install others plug
 11. Set good rights for the folder, as the script was probably ran as ROOT
  
 ##That's all. With only one simple command.
+
+More details to come at http://www.patricelaurent.net

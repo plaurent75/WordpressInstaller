@@ -1,6 +1,10 @@
 # WordpressInstaller
 A wordpress installer for OVH Release 3 (but should work on other linux distrib whith a few small modifications)
 
+## Required
+1. WP CLI installed (SEE : HOW-TO : Install WP-CLI in less than 1 minut : http://www.patricelaurent.net/installer-wp-cli-wordpress-en-ligne-de-commande/)
+2. Create alias for this script : alias wpinstall="/USERFOLDER/install-wordpress.sh" then source ~/.bashrc
+
 Simple script to install a new Wordpress Site with Your usual Plugins.
 Also include a step by step prompt to add your plugins from Wordpress Repository or from a zip file
 

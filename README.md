@@ -1,5 +1,5 @@
 # WordpressInstaller
-A wordpress installer for OVH Release 3
+A wordpress installer for OVH Release 3 (but should work on other linux distrib whith a few small modifications)
 
 Simple script to install a new Wordpress Site with Your usual Plugins.
 Also include a step by step prompt to add your plugins from Wordpress Repository or from a zip file
@@ -14,7 +14,7 @@ When done, just answer N to the questions "Would You Like To Install others plug
 
 ## Jobs done by the script :
 
-1. Download latest Wordpress release (Check --locale to download it in your current language)
+1. Download latest Wordpress release in the selected language
 2. Configure and create wp-config.php
 3. Install Wordpress (files and Database)
 4. Delete automatic post and page create by the default wordpress install

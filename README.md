@@ -32,4 +32,4 @@ When done, just answer N to the questions "Would You Like To Install others plug
  
 ##That's all. With only one simple command.
 
-More details to come at http://www.patricelaurent.net
+More details to come at http://www.patricelaurent.net/wordpress-installation-automatique/
